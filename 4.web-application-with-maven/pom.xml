@@ -66,10 +66,10 @@
                     <artifactId>tomcat7-maven-plugin</artifactId>
                     <version>2.2</version>
                     <configuration>
-					    <url>http://localhost:9090/manager/text</url>
+					    <url>http://localhost:8080/manager/text</url>
                         <server>TomcatServer</server>
                         <warFile>target/in28minutes.war</warFile>
-                        <path>/MyWebApp</path>
+                        <path>/MyWebAp</path>
                         <contextReloadable>true</contextReloadable>
 						<username>tomcat</username>
 						<password>tomcat</password>
